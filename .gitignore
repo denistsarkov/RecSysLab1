@@ -1,0 +1,18 @@
+# данные
+data/
+*.csv
+*.jsonl
+*.gz
+*.parquet
+*.npz
+# окружение и кеши
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+# тяжёлые артефакты и логи
+*.pt
+*.pkl
+run.log
